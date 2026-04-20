@@ -46,7 +46,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -279,7 +279,7 @@ Q3 NN (Quantum Perceptron / KWS): CSV: /data/loto7hh_4600_k31.csv
 redova: 4600 | seed: 39
 BEST hparam: nq= 8 | |f|: 4 | T: 3 | M (označenih): 80 | iter: 2 (Δ vs k*: 1 ) | cos(bias, freq_csv): 0.994079
 feature f (bitovi): [0, 1, 0, 0, 1, 0, 1, 1]
-predikcija NEXT: (2, 3, 4, 7, 11, 19, 20)
+predikcija NEXT: (2, 3, x, y, z, 19, 20)
 """
 
 
